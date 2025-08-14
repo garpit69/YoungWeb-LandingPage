@@ -1,10 +1,51 @@
 [
   {
-    "type": "banner",
-    "title": "YoungWeb - Jasa Pembuatan Website",
-    "subtitle": "Desain modern & profesional untuk bisnis Anda.",
-    "image": "https://i.imgur.com/8k6Q2pJ.png",
+    "type": "hero",
+    "title": "YoungWeb - Jasa Pembuatan Website Profesional",
+    "subtitle": "Kami menghadirkan solusi website cepat, elegan, dan sesuai kebutuhan bisnis Anda.",
+    "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/youngweb-hero.png",
     "ctaText": "Hubungi Kami",
+    "ctaLink": "https://wa.me/6281234567890"
+  },
+  {
+    "type": "features",
+    "items": [
+      {
+        "icon": "💻",
+        "title": "Desain Modern",
+        "description": "Website responsif dengan tampilan elegan dan user-friendly."
+      },
+      {
+        "icon": "⚡",
+        "title": "Loading Cepat",
+        "description": "Optimasi kecepatan untuk pengalaman pengguna terbaik."
+      },
+      {
+        "icon": "🔒",
+        "title": "Keamanan Terjamin",
+        "description": "Dilengkapi SSL & proteksi terhadap ancaman siber."
+      }
+    ]
+  },
+  {
+    "type": "testimonials",
+    "title": "Apa Kata Klien Kami",
+    "items": [
+      {
+        "name": "Rizky",
+        "feedback": "YoungWeb berhasil membuat website bisnis saya lebih profesional dan meningkatkan penjualan."
+      },
+      {
+        "name": "Dewi",
+        "feedback": "Pelayanan cepat dan hasil sesuai ekspektasi. Recommended!"
+      }
+    ]
+  },
+  {
+    "type": "contact",
+    "title": "Hubungi Kami",
+    "description": "Konsultasikan kebutuhan website Anda bersama tim YoungWeb.",
+    "ctaText": "Kirim Pesan",
     "ctaLink": "https://wa.me/6281234567890"
   }
 ]
