@@ -3,70 +3,38 @@
     "type": "hero",
     "title": "YoungWeb - Jasa Pembuatan Website Profesional",
     "subtitle": "Bangun identitas digital bisnis Anda dengan desain modern, responsif, dan memikat.",
-    "image": "https://github.com/garpit69/YoungWeb-LandingPage/blob/main/ChatGPT%20Image%2014%20Agu%202025,%20.png?raw=true",
+    "image": "https://i.imgur.com/8k6Q2pJ.png",
     "ctaText": "Konsultasi Gratis",
     "ctaLink": "https://wa.me/6281234567890"
   },
   {
     "type": "about",
     "title": "Mengapa Memilih YoungWeb?",
-    "description": "YoungWeb membantu UMKM, startup, dan perusahaan dalam membangun website profesional yang cepat, aman, dan sesuai kebutuhan bisnis. Dengan tim berpengalaman, kami pastikan setiap detail dirancang untuk hasil terbaik."
+    "description": "YoungWeb membantu UMKM, startup, dan perusahaan membangun website profesional yang cepat, aman, dan sesuai kebutuhan bisnis. Tim kami berpengalaman dalam menciptakan desain menarik, performa optimal, dan keamanan tingkat tinggi."
   },
   {
     "type": "features",
     "title": "Layanan Unggulan Kami",
     "items": [
       {
-        "icon": "🎨",
+        "icon": "palette",
         "title": "Desain Premium",
         "description": "Tampilan elegan, responsif, dan sesuai identitas brand Anda."
       },
       {
-        "icon": "⚡",
+        "icon": "bolt",
         "title": "Performa Optimal",
         "description": "Website cepat diakses dan ramah SEO untuk mendukung pemasaran online."
       },
       {
-        "icon": "🔒",
+        "icon": "lock",
         "title": "Keamanan Terjamin",
-        "description": "Teknologi SSL dan proteksi keamanan terkini."
+        "description": "Menggunakan teknologi SSL dan proteksi keamanan terkini."
       },
       {
-        "icon": "📱",
+        "icon": "mobile",
         "title": "Mobile Friendly",
-        "description": "Tampilan website menyesuaikan semua ukuran layar."
-      }
-    ]
-  },
-  {
-    "type": "portfolio",
-    "title": "Proyek yang Pernah Kami Kerjakan",
-    "items": [
-      {
-        "name": "Toko Online Fashion",
-        "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/portfolio1.png"
-      },
-      {
-        "name": "Website Perusahaan",
-        "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/portfolio2.png"
-      },
-      {
-        "name": "Landing Page Produk",
-        "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/portfolio3.png"
-      }
-    ]
-  },
-  {
-    "type": "testimonials",
-    "title": "Kata Mereka Tentang YoungWeb",
-    "items": [
-      {
-        "name": "Rizky - Pemilik Toko Online",
-        "feedback": "Website saya terlihat sangat profesional dan penjualan meningkat pesat!"
-      },
-      {
-        "name": "Dewi - Startup Founder",
-        "feedback": "Proses cepat, hasil maksimal. Timnya sangat responsif!"
+        "description": "Desain menyesuaikan semua ukuran layar."
       }
     ]
   },
