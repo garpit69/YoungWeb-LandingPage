@@ -1,0 +1,54 @@
+{
+  "title": "YoungWeb - Jasa Pembuatan Website Profesional",
+  "description": "YoungWeb adalah layanan profesional untuk pembuatan website modern, cepat, dan responsif. Cocok untuk bisnis, portofolio, toko online, atau proyek pribadi. Kami membantu mewujudkan website impian Anda dengan harga terjangkau dan kualitas terbaik.",
+  "theme": {
+    "primaryColor": "#1E90FF",
+    "secondaryColor": "#00BFFF",
+    "backgroundColor": "#F8F9FA",
+    "font": "Poppins"
+  },
+  "sections": [
+    {
+      "type": "hero",
+      "heading": "Bangun Website Impian Anda Bersama YoungWeb",
+      "subheading": "Website profesional, responsif, dan modern untuk semua kebutuhan Anda.",
+      "image": "https://garpit69.github.io/YoungWeb-LandingPage/assets/hero-image.png",
+      "cta": {
+        "label": "Pesan Sekarang",
+        "url": "https://wa.me/6281234567890"
+      }
+    },
+    {
+      "type": "features",
+      "items": [
+        { "icon": "💻", "title": "Desain Modern", "description": "Tampilan bersih, elegan, dan sesuai tren UI/UX terbaru." },
+        { "icon": "⚡", "title": "Cepat & Responsif", "description": "Website dioptimalkan agar cepat diakses di semua perangkat." },
+        { "icon": "🔒", "title": "Keamanan Terjamin", "description": "Dilengkapi pengamanan untuk melindungi data Anda." }
+      ]
+    },
+    {
+      "type": "portfolio",
+      "heading": "Proyek Kami",
+      "items": [
+        { "image": "https://garpit69.github.io/YoungWeb-LandingPage/assets/portfolio1.png", "title": "Toko Online Fashion", "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-fashion" },
+        { "image": "https://garpit69.github.io/YoungWeb-LandingPage/assets/portfolio2.png", "title": "Website Restoran", "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-food" }
+      ]
+    },
+    {
+      "type": "contact",
+      "heading": "Hubungi Kami",
+      "description": "Siap memulai proyek Anda? Hubungi kami sekarang!",
+      "buttons": [
+        { "label": "WhatsApp", "url": "https://wa.me/6281234567890" },
+        { "label": "Email", "url": "mailto:youngweb@email.com" }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "© 2025 YoungWeb. All Rights Reserved.",
+    "links": [
+      { "label": "Website", "url": "https://garpit69.github.io/YoungWeb-LandingPage/" },
+      { "label": "Instagram", "url": "https://instagram.com/youngweb" }
+    ]
+  }
+}
