@@ -1,86 +1,51 @@
-{
-  "title": "YoungWeb - Jasa Pembuatan Website Profesional",
-  "description": "YoungWeb adalah layanan pembuatan website modern, cepat, dan responsif. Cocok untuk bisnis, portofolio, toko online, atau proyek pribadi.",
-  "theme": {
-    "primaryColor": "#1E90FF",
-    "secondaryColor": "#00BFFF",
-    "backgroundColor": "#F8F9FA",
-    "font": "Poppins"
+[
+  {
+    "type": "hero",
+    "title": "YoungWeb - Jasa Pembuatan Website Profesional",
+    "subtitle": "Kami menghadirkan solusi website cepat, elegan, dan sesuai kebutuhan bisnis Anda.",
+    "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/youngweb-hero.png",
+    "ctaText": "Hubungi Kami",
+    "ctaLink": "https://wa.me/6281234567890"
   },
-  "sections": [
-    {
-      "type": "hero",
-      "heading": "Bangun Website Impian Anda Bersama YoungWeb",
-      "subheading": "Website profesional, responsif, dan modern untuk semua kebutuhan Anda.",
-      "image": "https://drive.google.com/uc?export=view&id=1H4VDV8N-F4awpeuBE21lXUE_ImX0uCRl",
-      "cta": {
-        "label": "Pesan Sekarang",
-        "url": "https://wa.me/6281234567890"
-      }
-    },
-    {
-      "type": "features",
-      "items": [
-        {
-          "icon": "💻",
-          "title": "Desain Modern",
-          "description": "Tampilan bersih, elegan, dan sesuai tren UI/UX terbaru."
-        },
-        {
-          "icon": "⚡",
-          "title": "Cepat & Responsif",
-          "description": "Website dioptimalkan agar cepat diakses di semua perangkat."
-        },
-        {
-          "icon": "🔒",
-          "title": "Keamanan Terjamin",
-          "description": "Dilengkapi pengamanan untuk melindungi data Anda."
-        }
-      ]
-    },
-    {
-      "type": "portfolio",
-      "heading": "Proyek Kami",
-      "items": [
-        {
-          "image": "https://drive.google.com/uc?export=view&id=1mQFk6b2MPr9ZcOrVsuDgCq6rPjBvVnE6",
-          "title": "Toko Online Fashion",
-          "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-fashion"
-        },
-        {
-          "image": "https://drive.google.com/uc?export=view&id=1q7bJvV2kUnR2W7XQ-YoD3LW6xv5aW5fK",
-          "title": "Website Restoran",
-          "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-food"
-        }
-      ]
-    },
-    {
-      "type": "contact",
-      "heading": "Hubungi Kami",
-      "description": "Siap memulai proyek Anda? Hubungi kami sekarang!",
-      "buttons": [
-        {
-          "label": "WhatsApp",
-          "url": "https://wa.me/6281234567890"
-        },
-        {
-          "label": "Email",
-          "url": "mailto:youngweb@email.com"
-        }
-      ]
-    }
-  ],
-  "footer": {
-    "text": "© 2025 YoungWeb. All Rights Reserved.",
-    "links": [
+  {
+    "type": "features",
+    "items": [
       {
-        "label": "Website",
-        "url": "https://garpit69.github.io/YoungWeb-LandingPage/"
+        "icon": "💻",
+        "title": "Desain Modern",
+        "description": "Website responsif dengan tampilan elegan dan user-friendly."
       },
       {
-        "label": "Instagram",
-        "url": "https://instagram.com/youngweb"
+        "icon": "⚡",
+        "title": "Loading Cepat",
+        "description": "Optimasi kecepatan untuk pengalaman pengguna terbaik."
+      },
+      {
+        "icon": "🔒",
+        "title": "Keamanan Terjamin",
+        "description": "Dilengkapi SSL & proteksi terhadap ancaman siber."
       }
     ]
+  },
+  {
+    "type": "testimonials",
+    "title": "Apa Kata Klien Kami",
+    "items": [
+      {
+        "name": "Rizky",
+        "feedback": "YoungWeb berhasil membuat website bisnis saya lebih profesional dan meningkatkan penjualan."
+      },
+      {
+        "name": "Dewi",
+        "feedback": "Pelayanan cepat dan hasil sesuai ekspektasi. Recommended!"
+      }
+    ]
+  },
+  {
+    "type": "contact",
+    "title": "Hubungi Kami",
+    "description": "Konsultasikan kebutuhan website Anda bersama tim YoungWeb.",
+    "ctaText": "Kirim Pesan",
+    "ctaLink": "https://wa.me/6281234567890"
   }
-}
+]
