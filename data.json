@@ -1,6 +1,6 @@
 {
-  "title": "YoungWeb Make Your Business More Advanced",
-  "description": "YoungWeb adalah layanan profesional untuk pembuatan website antara lain Input video & gambar, Full custom & Animated Gradient Background, WhatsApp Form & Floating Menu Button, Page Transition & Image Slider, Checkout Multi Produk & Hitung Ongkir Otomatis",
+  "title": "YoungWeb - Jasa Pembuatan Website Profesional",
+  "description": "YoungWeb adalah layanan pembuatan website modern, cepat, dan responsif. Cocok untuk bisnis, portofolio, toko online, atau proyek pribadi.",
   "theme": {
     "primaryColor": "#1E90FF",
     "secondaryColor": "#00BFFF",
@@ -10,9 +10,9 @@
   "sections": [
     {
       "type": "hero",
-      "heading": "YoungWeb",
-      "subheading": "Make Your Business More Advanced",{
-      "image": "https://drive.google.com/uc?export=view&id=1H4VDV8N-F4awpeuBE21lXUE_ImX0uCRl"},
+      "heading": "Bangun Website Impian Anda Bersama YoungWeb",
+      "subheading": "Website profesional, responsif, dan modern untuk semua kebutuhan Anda.",
+      "image": "https://drive.google.com/uc?export=view&id=1H4VDV8N-F4awpeuBE21lXUE_ImX0uCRl",
       "cta": {
         "label": "Pesan Sekarang",
         "url": "https://wa.me/6281234567890"
@@ -21,17 +21,37 @@
     {
       "type": "features",
       "items": [
-        { "icon": "💻", "title": "Desain Modern", "description": "Tampilan bersih, elegan, dan sesuai tren UI/UX terbaru." },
-        { "icon": "⚡", "title": "Cepat & Responsif", "description": "Website dioptimalkan agar cepat diakses di semua perangkat." },
-        { "icon": "🔒", "title": "Keamanan Terjamin", "description": "Dilengkapi pengamanan untuk melindungi data Anda." }
+        {
+          "icon": "💻",
+          "title": "Desain Modern",
+          "description": "Tampilan bersih, elegan, dan sesuai tren UI/UX terbaru."
+        },
+        {
+          "icon": "⚡",
+          "title": "Cepat & Responsif",
+          "description": "Website dioptimalkan agar cepat diakses di semua perangkat."
+        },
+        {
+          "icon": "🔒",
+          "title": "Keamanan Terjamin",
+          "description": "Dilengkapi pengamanan untuk melindungi data Anda."
+        }
       ]
     },
     {
       "type": "portfolio",
       "heading": "Proyek Kami",
       "items": [
-        { "image": "https://garpit69.github.io/YoungWeb-LandingPage/assets/portfolio1.png", "title": "Toko Online Fashion", "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-fashion" },
-        { "image": "https://garpit69.github.io/YoungWeb-LandingPage/assets/portfolio2.png", "title": "Website Restoran", "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-food" }
+        {
+          "image": "https://drive.google.com/uc?export=view&id=1mQFk6b2MPr9ZcOrVsuDgCq6rPjBvVnE6",
+          "title": "Toko Online Fashion",
+          "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-fashion"
+        },
+        {
+          "image": "https://drive.google.com/uc?export=view&id=1q7bJvV2kUnR2W7XQ-YoD3LW6xv5aW5fK",
+          "title": "Website Restoran",
+          "url": "https://garpit69.github.io/YoungWeb-LandingPage/demo-food"
+        }
       ]
     },
     {
@@ -39,16 +59,28 @@
       "heading": "Hubungi Kami",
       "description": "Siap memulai proyek Anda? Hubungi kami sekarang!",
       "buttons": [
-        { "label": "WhatsApp", "url": "https://wa.me/6281234567890" },
-        { "label": "Email", "url": "mailto:youngweb@email.com" }
+        {
+          "label": "WhatsApp",
+          "url": "https://wa.me/6281234567890"
+        },
+        {
+          "label": "Email",
+          "url": "mailto:youngweb@email.com"
+        }
       ]
     }
   ],
   "footer": {
     "text": "© 2025 YoungWeb. All Rights Reserved.",
     "links": [
-      { "label": "Website", "url": "https://garpit69.github.io/YoungWeb-LandingPage/" },
-      { "label": "Instagram", "url": "https://instagram.com/youngweb" }
+      {
+        "label": "Website",
+        "url": "https://garpit69.github.io/YoungWeb-LandingPage/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://instagram.com/youngweb"
+      }
     ]
   }
 }
