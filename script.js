@@ -1,75 +1,149 @@
-fetch('data.json')
-  .then(res => res.json())
-  .then(data => {
-    document.title = data.title;
-    document.body.style.backgroundColor = data.theme.backgroundColor;
-    document.body.style.fontFamily = data.theme.font;
+const data = [
+  {
+    "type": "hero",
+    "title": "YoungWeb - Jasa Pembuatan Website Profesional",
+    "subtitle": "Bangun identitas digital bisnis Anda dengan desain modern, responsif, dan memikat.",
+    "image": "https://i.imgur.com/8k6Q2pJ.png",
+    "ctaText": "Konsultasi Gratis",
+    "ctaLink": "https://wa.me/6281234567890"
+  },
+  {
+    "type": "about",
+    "title": "Mengapa Memilih YoungWeb?",
+    "description": "YoungWeb membantu UMKM, startup, dan perusahaan membangun website profesional yang cepat, aman, dan sesuai kebutuhan bisnis. Kami mengutamakan desain yang menarik, performa optimal, dan keamanan tingkat tinggi."
+  },
+  {
+    "type": "features",
+    "title": "Layanan Unggulan YoungWeb",
+    "items": [
+      { "icon": "🎨", "title": "Desain Premium", "description": "Tampilan elegan, responsif, dan sesuai identitas brand Anda." },
+      { "icon": "⚡", "title": "Performa Optimal", "description": "Website cepat diakses dan ramah SEO untuk mendukung pemasaran online." },
+      { "icon": "🔒", "title": "Keamanan Terjamin", "description": "Menggunakan teknologi SSL dan proteksi keamanan terkini." },
+      { "icon": "📱", "title": "Mobile Friendly", "description": "Desain menyesuaikan semua ukuran layar." },
+      { "icon": "🛒", "title": "Toko Online", "description": "Integrasi e-commerce untuk meningkatkan penjualan Anda." }
+    ]
+  },
+  {
+    "type": "portfolio",
+    "title": "Portofolio Kami",
+    "description": "Beberapa proyek yang telah kami selesaikan untuk klien dari berbagai industri.",
+    "projects": [
+      { "image": "https://i.imgur.com/m6S3z7V.png", "title": "Website Perusahaan", "link": "#" },
+      { "image": "https://i.imgur.com/5cF7Hn8.png", "title": "Toko Online Fashion", "link": "#" },
+      { "image": "https://i.imgur.com/OxGfEHO.png", "title": "Landing Page Startup", "link": "#" }
+    ]
+  },
+  {
+    "type": "testimonials",
+    "title": "Apa Kata Klien Kami?",
+    "items": [
+      { "name": "Budi Santoso", "company": "PT Maju Jaya", "testimonial": "YoungWeb benar-benar membantu bisnis kami memiliki website profesional dan meningkatkan penjualan." },
+      { "name": "Siti Rahma", "company": "Toko Online Hijab", "testimonial": "Desainnya keren, supportnya cepat, dan hasilnya sesuai harapan." }
+    ]
+  },
+  {
+    "type": "contact",
+    "title": "Hubungi YoungWeb Sekarang",
+    "description": "Siap memulai perjalanan digital Anda? Hubungi kami dan wujudkan website impian Anda.",
+    "ctaText": "Hubungi via WhatsApp",
+    "ctaLink": "https://wa.me/6281234567890",
+    "email": "info@youngweb.id",
+    "phone": "+62 812-3456-7890",
+    "address": "Jl. Teknologi No. 123, Jakarta, Indonesia"
+  }
+];
 
-    const app = document.getElementById('app');
+function render() {
+  const app = document.getElementById('app');
 
-    // HERO
-    const hero = data.sections.find(s => s.type === 'hero');
-    app.innerHTML += `
-      <section class="hero">
-        <h1>${hero.heading}</h1>
-        <p>${hero.subheading}</p>
-        <img src="${hero.image}" alt="Hero Image">
-        <br><br>
-        <a href="${hero.cta.url}" class="contact-btn">${hero.cta.label}</a>
-      </section>
-    `;
+  data.forEach(section => {
+    let html = '';
 
-    // FEATURES
-    const features = data.sections.find(s => s.type === 'features');
-    app.innerHTML += `
-      <section>
-        <div class="features">
-          ${features.items.map(f => `
-            <div class="feature">
-              <h2>${f.icon} ${f.title}</h2>
-              <p>${f.description}</p>
-            </div>
-          `).join('')}
-        </div>
-      </section>
-    `;
+    if (section.type === 'hero') {
+      html = `
+        <section class="hero">
+          <h1>${section.title}</h1>
+          <p>${section.subtitle}</p>
+          <img src="${section.image}" alt="${section.title}">
+          <br>
+          <a class="cta-btn" href="${section.ctaLink}">${section.ctaText}</a>
+        </section>
+      `;
+    }
 
-    // PORTFOLIO
-    const portfolio = data.sections.find(s => s.type === 'portfolio');
-    app.innerHTML += `
-      <section>
-        <h2>${portfolio.heading}</h2>
-        <div class="portfolio">
-          ${portfolio.items.map(p => `
-            <div class="portfolio-item">
-              <a href="${p.url}">
+    if (section.type === 'about') {
+      html = `
+        <section>
+          <h2>${section.title}</h2>
+          <p>${section.description}</p>
+        </section>
+      `;
+    }
+
+    if (section.type === 'features') {
+      html = `
+        <section>
+          <h2>${section.title}</h2>
+          <div class="features">
+            ${section.items.map(item => `
+              <div class="feature-item">
+                <h3>${item.icon} ${item.title}</h3>
+                <p>${item.description}</p>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+      `;
+    }
+
+    if (section.type === 'portfolio') {
+      html = `
+        <section>
+          <h2>${section.title}</h2>
+          <p>${section.description}</p>
+          <div class="portfolio">
+            ${section.projects.map(p => `
+              <div class="portfolio-item">
                 <img src="${p.image}" alt="${p.title}">
                 <h3>${p.title}</h3>
-              </a>
-            </div>
-          `).join('')}
-        </div>
-      </section>
-    `;
+              </div>
+            `).join('')}
+          </div>
+        </section>
+      `;
+    }
 
-    // CONTACT
-    const contact = data.sections.find(s => s.type === 'contact');
-    app.innerHTML += `
-      <section>
-        <h2>${contact.heading}</h2>
-        <p>${contact.description}</p>
-        <div class="contact-buttons">
-          ${contact.buttons.map(b => `<a href="${b.url}">${b.label}</a>`).join('')}
-        </div>
-      </section>
-    `;
+    if (section.type === 'testimonials') {
+      html = `
+        <section>
+          <h2>${section.title}</h2>
+          <div class="testimonials">
+            ${section.items.map(t => `
+              <div class="testimonial-item">
+                <p>"${t.testimonial}"</p>
+                <strong>- ${t.name}, ${t.company}</strong>
+              </div>
+            `).join('')}
+          </div>
+        </section>
+      `;
+    }
 
-    // FOOTER
-    const footer = data.footer;
-    document.body.innerHTML += `
-      <footer>
-        <p>${footer.text}</p>
-        ${footer.links.map(l => `<a href="${l.url}" style="color:white;margin:0 10px;">${l.label}</a>`).join('')}
-      </footer>
-    `;
+    if (section.type === 'contact') {
+      html = `
+        <section class="contact">
+          <h2>${section.title}</h2>
+          <p>${section.description}</p>
+          <a class="cta-btn" href="${section.ctaLink}">${section.ctaText}</a>
+          <p>Email: ${section.email}</p>
+          <p>Telp: ${section.phone}</p>
+          <p>Alamat: ${section.address}</p>
+        </section>
+      `;
+    }
+
+    app.innerHTML += html;
   });
+}
+
+render();
