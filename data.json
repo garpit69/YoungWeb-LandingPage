@@ -1,48 +1,10 @@
 [
   {
-    "type": "hero",
-    "title": "YoungWeb - Jasa Pembuatan Website Profesional",
-    "subtitle": "Bangun identitas digital bisnis Anda dengan desain modern, responsif, dan memikat.",
+    "type": "banner",
+    "title": "YoungWeb - Jasa Pembuatan Website",
+    "subtitle": "Desain modern & profesional untuk bisnis Anda.",
     "image": "https://i.imgur.com/8k6Q2pJ.png",
-    "ctaText": "Konsultasi Gratis",
-    "ctaLink": "https://wa.me/6281234567890"
-  },
-  {
-    "type": "about",
-    "title": "Mengapa Memilih YoungWeb?",
-    "description": "YoungWeb membantu UMKM, startup, dan perusahaan membangun website profesional yang cepat, aman, dan sesuai kebutuhan bisnis. Tim kami berpengalaman dalam menciptakan desain menarik, performa optimal, dan keamanan tingkat tinggi."
-  },
-  {
-    "type": "features",
-    "title": "Layanan Unggulan Kami",
-    "items": [
-      {
-        "icon": "palette",
-        "title": "Desain Premium",
-        "description": "Tampilan elegan, responsif, dan sesuai identitas brand Anda."
-      },
-      {
-        "icon": "bolt",
-        "title": "Performa Optimal",
-        "description": "Website cepat diakses dan ramah SEO untuk mendukung pemasaran online."
-      },
-      {
-        "icon": "lock",
-        "title": "Keamanan Terjamin",
-        "description": "Menggunakan teknologi SSL dan proteksi keamanan terkini."
-      },
-      {
-        "icon": "mobile",
-        "title": "Mobile Friendly",
-        "description": "Desain menyesuaikan semua ukuran layar."
-      }
-    ]
-  },
-  {
-    "type": "contact",
-    "title": "Hubungi YoungWeb Sekarang",
-    "description": "Siap memulai perjalanan digital Anda? Hubungi kami dan wujudkan website impian Anda.",
-    "ctaText": "Hubungi via WhatsApp",
+    "ctaText": "Hubungi Kami",
     "ctaLink": "https://wa.me/6281234567890"
   }
 ]
