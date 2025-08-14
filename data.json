@@ -10,11 +10,11 @@
   {
     "type": "about",
     "title": "Mengapa Memilih YoungWeb?",
-    "description": "YoungWeb membantu UMKM, startup, dan perusahaan membangun website profesional yang cepat, aman, dan sesuai kebutuhan bisnis. Tim kami berpengalaman dalam menciptakan desain menarik, performa optimal, dan keamanan tingkat tinggi."
+    "description": "YoungWeb membantu UMKM, startup, dan perusahaan membangun website profesional yang cepat, aman, dan sesuai kebutuhan bisnis. Kami mengutamakan desain yang menarik, performa optimal, dan keamanan tingkat tinggi."
   },
   {
     "type": "features",
-    "title": "Layanan Unggulan Kami",
+    "title": "Layanan Unggulan YoungWeb",
     "items": [
       {
         "icon": "palette",
@@ -35,6 +35,49 @@
         "icon": "mobile",
         "title": "Mobile Friendly",
         "description": "Desain menyesuaikan semua ukuran layar."
+      },
+      {
+        "icon": "shopping-cart",
+        "title": "Toko Online",
+        "description": "Integrasi e-commerce untuk meningkatkan penjualan Anda."
+      }
+    ]
+  },
+  {
+    "type": "portfolio",
+    "title": "Portofolio Kami",
+    "description": "Beberapa proyek yang telah kami selesaikan untuk klien dari berbagai industri.",
+    "projects": [
+      {
+        "image": "https://i.imgur.com/1.jpg",
+        "title": "Website Perusahaan",
+        "link": "#"
+      },
+      {
+        "image": "https://i.imgur.com/2.jpg",
+        "title": "Toko Online Fashion",
+        "link": "#"
+      },
+      {
+        "image": "https://i.imgur.com/3.jpg",
+        "title": "Landing Page Startup",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "type": "testimonials",
+    "title": "Apa Kata Klien Kami?",
+    "items": [
+      {
+        "name": "Budi Santoso",
+        "company": "PT Maju Jaya",
+        "testimonial": "YoungWeb benar-benar membantu bisnis kami memiliki website profesional dan meningkatkan penjualan."
+      },
+      {
+        "name": "Siti Rahma",
+        "company": "Toko Online Hijab",
+        "testimonial": "Desainnya keren, supportnya cepat, dan hasilnya sesuai harapan."
       }
     ]
   },
@@ -43,6 +86,9 @@
     "title": "Hubungi YoungWeb Sekarang",
     "description": "Siap memulai perjalanan digital Anda? Hubungi kami dan wujudkan website impian Anda.",
     "ctaText": "Hubungi via WhatsApp",
-    "ctaLink": "https://wa.me/6281234567890"
+    "ctaLink": "https://wa.me/6281234567890",
+    "email": "info@youngweb.id",
+    "phone": "+62 812-3456-7890",
+    "address": "Jl. Teknologi No. 123, Jakarta, Indonesia"
   }
 ]
