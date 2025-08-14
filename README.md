@@ -1,2 +1,0 @@
-# YoungWeb-LandingPage
-index.html
