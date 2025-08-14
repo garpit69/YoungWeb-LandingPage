@@ -2,50 +2,79 @@
   {
     "type": "hero",
     "title": "YoungWeb - Jasa Pembuatan Website Profesional",
-    "subtitle": "Kami menghadirkan solusi website cepat, elegan, dan sesuai kebutuhan bisnis Anda.",
-    "image": "https://github.com/garpit69/YoungWeb-LandingPage/blob/main/ChatGPT%20Image%2014%20Agu%202025%2C%20.png",
-    "ctaText": "Hubungi Kami",
+    "subtitle": "Bangun identitas digital bisnis Anda dengan desain modern, responsif, dan memikat.",
+    "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/youngweb-hero.png",
+    "ctaText": "Konsultasi Gratis",
     "ctaLink": "https://wa.me/6281234567890"
   },
   {
+    "type": "about",
+    "title": "Mengapa Memilih YoungWeb?",
+    "description": "YoungWeb membantu UMKM, startup, dan perusahaan dalam membangun website profesional yang cepat, aman, dan sesuai kebutuhan bisnis. Dengan tim berpengalaman, kami pastikan setiap detail dirancang untuk hasil terbaik."
+  },
+  {
     "type": "features",
+    "title": "Layanan Unggulan Kami",
     "items": [
       {
-        "icon": "💻",
-        "title": "Desain Modern",
-        "description": "Website responsif dengan tampilan elegan dan user-friendly."
+        "icon": "🎨",
+        "title": "Desain Premium",
+        "description": "Tampilan elegan, responsif, dan sesuai identitas brand Anda."
       },
       {
         "icon": "⚡",
-        "title": "Loading Cepat",
-        "description": "Optimasi kecepatan untuk pengalaman pengguna terbaik."
+        "title": "Performa Optimal",
+        "description": "Website cepat diakses dan ramah SEO untuk mendukung pemasaran online."
       },
       {
         "icon": "🔒",
         "title": "Keamanan Terjamin",
-        "description": "Dilengkapi SSL & proteksi terhadap ancaman siber."
+        "description": "Teknologi SSL dan proteksi keamanan terkini."
+      },
+      {
+        "icon": "📱",
+        "title": "Mobile Friendly",
+        "description": "Tampilan website menyesuaikan semua ukuran layar."
+      }
+    ]
+  },
+  {
+    "type": "portfolio",
+    "title": "Proyek yang Pernah Kami Kerjakan",
+    "items": [
+      {
+        "name": "Toko Online Fashion",
+        "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/portfolio1.png"
+      },
+      {
+        "name": "Website Perusahaan",
+        "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/portfolio2.png"
+      },
+      {
+        "name": "Landing Page Produk",
+        "image": "https://raw.githubusercontent.com/garpit69/YoungWeb-LandingPage/main/portfolio3.png"
       }
     ]
   },
   {
     "type": "testimonials",
-    "title": "Apa Kata Klien Kami",
+    "title": "Kata Mereka Tentang YoungWeb",
     "items": [
       {
-        "name": "Rizky",
-        "feedback": "YoungWeb berhasil membuat website bisnis saya lebih profesional dan meningkatkan penjualan."
+        "name": "Rizky - Pemilik Toko Online",
+        "feedback": "Website saya terlihat sangat profesional dan penjualan meningkat pesat!"
       },
       {
-        "name": "Dewi",
-        "feedback": "Pelayanan cepat dan hasil sesuai ekspektasi. Recommended!"
+        "name": "Dewi - Startup Founder",
+        "feedback": "Proses cepat, hasil maksimal. Timnya sangat responsif!"
       }
     ]
   },
   {
     "type": "contact",
-    "title": "Hubungi Kami",
-    "description": "Konsultasikan kebutuhan website Anda bersama tim YoungWeb.",
-    "ctaText": "Kirim Pesan",
+    "title": "Hubungi YoungWeb Sekarang",
+    "description": "Siap memulai perjalanan digital Anda? Hubungi kami dan wujudkan website impian Anda.",
+    "ctaText": "Hubungi via WhatsApp",
     "ctaLink": "https://wa.me/6281234567890"
   }
 ]
